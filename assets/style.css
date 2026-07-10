@@ -282,3 +282,98 @@ border: 1px solid #0d1b2a;
     border-bottom:1px solid #e5e7eb;;
     margin-bottom: 20px;
 }
+
+/* AI code style */
+ .networking-section {
+  padding: 90px 0;
+  background-color: #111827;
+  color: white;
+}
+
+.networking-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 60px;
+  align-items: center;
+}
+
+.section-tag {
+  display: inline-block;
+  margin: 0 0 18px;
+  color: #fd6e0a;
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 2px;
+}
+
+.networking-content h2 {
+  margin: 0 0 20px;
+  font-size: 46px;
+  line-height: 1.2;
+}
+
+.networking-description {
+  max-width: 520px;
+  margin: 0 0 30px;
+  color: #cbd5e1;
+  font-size: 17px;
+  line-height: 1.7;
+}
+
+.networking-btn {
+  display: inline-block;
+  padding: 14px 25px;
+  border-radius: 6px;
+  background-color: #fd6e0a;
+  color: white;
+  text-decoration: none;
+  font-weight: 700;
+  transition: 0.3s;
+}
+
+.networking-btn:hover {
+  background-color: #e65f00;
+  transform: translateY(-3px);
+}
+
+.networking-cards {
+  display: grid;
+  gap: 18px;
+}
+
+.networking-card {
+  padding: 25px;
+  border: 1px solid #334155;
+  border-radius: 12px;
+  background-color: #1e293b;
+  transition: 0.3s;
+}
+
+.networking-card:hover {
+  transform: translateX(10px);
+  border-color: #fd6e0a;
+}
+
+.networking-number {
+  display: inline-block;
+  margin-bottom: 12px;
+  color: #fd6e0a;
+  font-size: 15px;
+  font-weight: 700;
+}
+
+.networking-card h3 {
+  margin: 0 0 10px;
+  font-size: 22px;
+}
+
+.networking-card p {
+  margin: 0;
+  color: #cbd5e1;
+  line-height: 1.6;
+}
+
+
+
+
+
