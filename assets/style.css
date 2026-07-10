@@ -29,6 +29,10 @@ border: none;
 background: #1d4ed8;
 }
 
+.common-btn:hover{
+  color:#888 ;
+  transition: 2s;
+}
 /* header style */
 header{
     padding: 24px 0;
@@ -63,8 +67,15 @@ color: #0d1b2a;
     align-items: center;
     gap: 24px;
       list-style: none;
+      
 }
 
+.nav-list a:hover{
+  color: #22c55e;
+    transition: 0.3s;
+    
+
+}
 li a{
 font-weight: 400;
 font-size: 16px;
@@ -72,7 +83,9 @@ color: #575757;
 text-decoration: none;
 }
 
-
+.logo span{
+color: #ff7a00;
+}
 /* banner style */
 .banner {
   min-height: 100vh;
@@ -111,7 +124,9 @@ max-width: 829px;
     margin-bottom: 80px;
 }
 
-
+.top-content span{
+  color:blueviolet;
+}
 /* speakers style */
 
 .speakers-section{
@@ -283,6 +298,10 @@ border: 1px solid #0d1b2a;
     margin-bottom: 20px;
 }
 
+.pricing-btn:hover{
+  background-color: orange;
+  border: none;
+}
 /* AI code style */
  .networking-section {
   padding: 90px 0;
