@@ -117,7 +117,7 @@ max-width: 829px;
 .speakers-section{
     margin-bottom: 170px;
 }
-
+/* common title */
 .section-title {
 font-weight: 700;
 font-size: 56px;
@@ -169,3 +169,116 @@ font-size: 14px;
 color: #575757;
 }
 
+/* pricing section style */
+.pricing-section {
+  text-align: center;
+  margin-bottom: 130px;
+}
+.pricing-section h2{
+    margin-bottom: 12px;
+}
+.pricing-subtitle {
+  margin: 0 auto 48px;
+color: #575757;
+}
+
+.pricing-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 25px;
+ 
+}
+
+.pricing-card {
+  background-color: #ffffff;
+  padding: 35px;
+  border-radius: 12px;
+  text-align: left;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  display: flex;
+  flex-direction: column;
+}
+
+.plan-label ,.price-text,li{
+  font-size: 18px;
+  font-weight: 700;
+ color: #888;
+}
+
+.pricing-card h3 {
+  font-size: 42px;
+  margin: 15px 0 5px;
+  color: #222;
+}
+
+.price-text {
+  margin: 0 0 25px;
+  color: #777;
+}
+
+.pricing-card ul {
+  list-style: disc;
+  padding-left: 20px;
+  margin: 0 0 30px;
+  text-align: left;
+}
+
+.pricing-card ul li {
+  margin-bottom: 14px;
+  color: #555;
+  font-size: 14px;
+}
+
+
+.pricing-btn {
+  margin-top: auto;
+  text-align: center;
+  text-decoration: none;
+  font-weight: 600;
+border-radius: 8px;
+padding: 11px 0px;
+border: 1px solid #2563eb;
+
+}
+
+.featured-card {
+  background-color: #1f2a44;
+  transform: translateY(-15px);
+}
+
+.featured-card .plan-label,
+.featured-card h3,
+.featured-card ul li {
+  color: white;
+}
+
+.featured-card .price-text {
+  color: #c8d0e0;
+}
+
+.featured-card .pricing-btn {
+  background-color: #2563eb;
+  color: #FFFFFF;
+}
+.featured-card .plan-label{
+    color: #fd6e0a;
+}
+.standard .pricing-btn {
+color: #2563eb;
+border: 1px solid #2563eb;
+}
+.team .pricing-btn {
+border: 1px solid #0d1b2a;
+ color: #0d1b2a;
+}
+.speakers-grid .team{
+    background-color: #f8f9fb;
+}
+.pricing-card ul li::marker {
+  color: #2563eb;
+}
+
+.card-box{
+    border-bottom:1px solid #e5e7eb;;
+    margin-bottom: 20px;
+}
