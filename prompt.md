@@ -1,0 +1,1 @@
+Create a responsive Developer Networking Lounge section for a DevConf 2026 website using HTML and CSS only. Use a dark modern tech-conference design, a left content area with heading, description and button, and three networking cards on the right. Add subtle hover effects and mobile responsiveness.
